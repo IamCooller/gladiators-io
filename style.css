@@ -1,0 +1,324 @@
+.abouUs {
+    justify-content: space-between;
+    padding-top: 68px;
+    padding-bottom: 101px;
+}
+
+.abouUs .aboutUs__description h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    max-width: 393px;
+}
+
+.abouUs .aboutUs__description p {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 34px;
+    color: #707070;
+    max-width: 393px;
+}
+
+.abouUs .aboutUs__features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abouUs .aboutUs__features .aboutUs__features-block {
+    display: flex;
+    width: 50%;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.abouUs .aboutUs__features .aboutUs__features-block h3,
+.abouUs .aboutUs__features .aboutUs__features-block p,
+.abouUs .aboutUs__features .aboutUs__features-block span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 0;
+
+}
+
+.abouUs .aboutUs__features .aboutUs__features-block p,
+.abouUs .aboutUs__features .aboutUs__features-block span {
+    color: #FD521E;
+}
+
+.aboutUs__features-block-additional {
+    margin-left: 23.9px;
+    max-width: 223px;
+}
+
+.Tesis {
+
+}
+
+.Tesis .container{
+    border-radius: 15px;
+    background: #F8F8EE;
+    padding: 76px 84px;
+}
+
+.Tesis h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 63px;
+    line-height: 58px;
+    margin-bottom: 15px;
+}
+
+.Tesis p {
+    font-family: 'Sofia Pro', sans-serif;
+    line-height: 26px;
+    color: #707070;
+    max-width: 383px;
+}
+
+.Tesis button {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background: #FD521E;
+    width: 148px;
+    height: 44px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 29px;
+}
+
+.Tesis .col-6 {
+    position: relative;
+}
+
+.Tesis img {
+    position: absolute;
+    bottom: -55px;
+}
+
+.BullPoints,
+.KeyRisks {
+    margin-top: 85px;
+}
+
+.BullPoints h2,
+.KeyRisks h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 63px;
+    line-height: 58px;
+    margin-bottom: 49px;
+}
+
+.BullPoints .BullPoints__item,
+.KeyRisks .KeyRisks__item {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 41px;
+}
+
+.BullPoints .BullPoints__item svg,
+.KeyRisks .KeyRisks__item svg {
+    position: absolute;
+    left: 0;
+}
+
+.BullPoints .BullPoints__item h3,
+.KeyRisks .KeyRisks__item h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.BullPoints .BullPoints__item p,
+.KeyRisks .KeyRisks__item p {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    max-width: 294px;
+    font-weight: 300;
+}
+
+.KeyRisks {
+    background: #F8F8EE;
+    padding-top: 100px;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+}
+
+.DigDeeper{
+    padding-top: 80px;
+    padding-bottom: 118px;
+}
+
+.DigDeeper h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 63px;
+    line-height: 58px;
+    margin-bottom: 49px;
+    text-align: center;
+}
+
+.DigDeeper .DigDeeper__top-list{
+    text-align: center;
+}
+
+.DigDeeper__top-list {
+    cursor: pointer;
+}
+
+.DigDeeper .DigDeeper__top-list p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 30px;
+    padding-bottom: 25px; 
+}
+
+.DigDeeper  .DigDeeper__list-top{
+    border-bottom: 1px solid #E6E6E6;
+    position: relative;
+}
+
+.DigDeeper  .DigDeeper__top-list-option::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25%;
+    left: 0;
+    bottom: -2px;
+    background: #FBC874;
+}
+
+.DigDeeper  .DigDeeper__list-top25::after{
+   
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25%;
+    left: 25%;
+    bottom: -2px;
+    background: #FBC874;
+}
+
+.DigDeeper  .DigDeeper__list-top50::after{
+   
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25%;
+    left: 50%;
+    bottom: -2px;
+    background: #FBC874;
+}
+
+.DigDeeper  .DigDeeper__list-top75::after{
+    
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25%;
+    left: 75%;
+    bottom: -2px;
+    background: #FBC874;
+}
+
+.DigDeeper  .DigDeeper__list-top100::after{
+  
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25%;
+    left: 100%;
+    bottom: -2px;
+    background: #FBC874;
+}
+
+.DigDeeper__list-bottom{
+    padding-top: 63.5px;
+    align-items: center;
+}
+
+.DigDeeper__list-bottom .DigDeeper__list-bottom-item{
+    display: flex;
+    flex-direction: column;
+    min-height: 315px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.DigDeeper__list-bottom .DigDeeper__list-bottom-item h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    max-width: 300px;
+}
+
+.DigDeeper__list-bottom .DigDeeper__list-bottom-item p{
+    font-family: 'Sofia Pro', sans-serif;
+    max-width: 270px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #707070;
+}
+
+.DigDeeper__list-bottom .DigDeeper__list-bottom-item button{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #FD521E;
+    width: 114px;
+    height: 44px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+
+@media(max-width:990px){
+    .abouUs .aboutUs__description h2,
+    .abouUs .aboutUs__description p{
+        max-width: 100%;
+    }
+    .abouUs .aboutUs__features{
+        margin-top: 30px;
+    }
+    .Tesis img{
+        display: none;
+    }
+    .Tesis p{
+        max-width: 100%;
+    }
+}
+
+@media(max-width:560px){
+    .abouUs .aboutUs__features .aboutUs__features-block{
+        margin: auto;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .Tesis .container{
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .BullPoints .BullPoints__item p, .KeyRisks .KeyRisks__item p{
+        max-width: 100%;
+    }
+    .KeyRisks{
+        clip-path: none;
+    }
+    .DigDeeper .DigDeeper__top-list p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .DigDeeper .DigDeeper__top-list svg{
+        width: 100%;
+    }
+}
